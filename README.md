@@ -1,2 +1,2 @@
-# Database-System-lab-
+# Database-System
 database system lab practice
