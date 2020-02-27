@@ -1,0 +1,13 @@
+DBMS lab-3 Query   //23-01-2020,Monday timetable,9:00AM to 11:00AM;
+
+Que-1)
+select employee.Fname,employee.Lname,employee.Bdate,employee.Address,employee.Dno,department.Dname from employee inner join department on  employee.Dno=department.D_no and department.Dname="Administration";
+
+Que-2)
+select sum(employee.salary),max(employee.salary),min(employee.salary),avg(employee.salary) from employee inner join department on employee.Dno=department.D_no and department.Dname="Research";
+
+Que-3)
+select count(employee.Fname) from employee inner join department on employee.Dno=department.D_no and department.Dname="Administration";
+
+Que-4)
+ssssssssssss
